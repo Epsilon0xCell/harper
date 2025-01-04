@@ -1,8 +1,5 @@
 use harper_core::linting::{LintGroup, LintGroupConfig, Linter};
-use harper_core::{
-    parsers::{Markdown, Typst},
-    Document, FstDictionary,
-};
+use harper_core::{parsers::Markdown, Document, FstDictionary};
 
 /// Creates a unit test checking that the linting of a document in
 /// `tests_sources` produces the expected number of lints.
@@ -49,8 +46,3 @@ create_test!(issue_267.md, &Markdown, 0);
 create_test!(proper_noun_capitalization.md, &Markdown, 2);
 create_test!(amazon_hostname.md, &Markdown, 0);
 create_test!(issue_159.md, &Markdown, 1);
-
-#[cfg(feature = "typst")]
-create_test!(complex_typst.typ, &Typst, 0);
-#[cfg(feature = "typst")]
-create_test!(typst_spelling_mistakes.typ, &Typst, 4);
