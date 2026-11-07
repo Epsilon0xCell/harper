@@ -1,3 +1,7 @@
+![Harper banner: a printer's wooden type case full of metal type in its compartments, tweezers setting a corrected block into a line on the galley beside it, a red proof dot on a slip of paper, lead grey and warm brass tones](banner.png)
+
+<p align="center"><img src="logo.png" alt="Harper logo: a row of lead type blocks in a steel composing stick photographed close, one block lifted out of the line and marked with a single proofreader red dot, lead grey and warm brass tones" width="200"></p>
+
 <div id="header" align="center">
     <img src="logo.svg" width="400px" />
     <h1>Harper</h1>
